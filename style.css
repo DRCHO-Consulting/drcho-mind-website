@@ -1,0 +1,25 @@
+/* Add this to your style.css */
+header {
+    background-color: #333; /* Dark background for contrast */
+    padding: 10px;          /* Padding for spacing */
+}
+
+nav ul {
+    list-style-type: none;  /* Remove bullet points */
+    margin: 0;              /* Remove default margin */
+    padding: 0;             /* Remove default padding */
+}
+
+nav ul li {
+    display: inline;        /* Display links inline */
+    margin-right: 15px;    /* Spacing between links */
+}
+
+nav ul li a {
+    color: white;          /* Change link color to white */
+    text-decoration: none; /* Remove underline from links */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover for better visibility */
+}
