@@ -15,28 +15,24 @@
       background-color: #333;
       color: #fff;
       padding: 20px 0;
-      display: flex;
-      align-items: center;
-    }
-    header img {
-      margin-right: 20px; /* Adds some space between the logo and the title */
-      height: 50px; /* Adjust the logo size */
     }
     h1 {
       margin: 0;
     }
     nav ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
+      list-style-type: none; /* Remove bullet points */
+      padding: 0;           /* Remove default padding */
     }
     nav ul li {
-      margin-right: 20px;
+      display: inline;       /* Display list items inline */
+      margin-right: 20px;   /* Add space between links */
     }
     nav ul li a {
-      color: #fff;
-      text-decoration: none;
+      color: white;            /* Change link color to white */
+      text-decoration: none;    /* Remove underline from links */
+    }
+    nav ul li a:hover {
+      text-decoration: underline; /* Underline links on hover */
     }
     section {
       padding: 50px;
@@ -45,13 +41,11 @@
       background-color: #333;
       color: #fff;
       padding: 10px 0;
-      text-align: center;
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="website.png" alt="DRCHO Logo"> <!-- This is where the logo is inserted -->
     <h1>DRCHO Mind Management Consulting</h1>
     <nav>
       <ul>
@@ -61,12 +55,16 @@
       </ul>
     </nav>
   </header>
-
+  
   <section>
-    <h1>What we do</h1>
-    <p>We empower organizations to navigate change through effective people strategies and leadership development...</p>
+    <h1>What we do</h1> <!-- Ensure this matches the desired header style -->
+    <p>We empower organizations to navigate change through effective people strategies and leadership development. Our diverse expertise spans multiple sectors, including government, public safety, criminal justice, construction, and digital transformation.</p>
+    <br>
+    <p>We offer services such as People Operations, Leadership Development, Change Management, and Generative AI Advisory, all focused on aligning workforce capabilities with organizational goals. We are committed to fostering a culture of continuous improvement, guiding leaders and teams to develop the skills and mindsets necessary for successful transformation.</p>
   </section>
-
+  
+  <p>Contact us: <a href="mailto:info@drcho-consulting.com">info@drcho-consulting.com</a></p>
+  
   <footer>
     <p>&copy; 2024 DRCHO Mind Management Consulting Inc.</p>
   </footer>
